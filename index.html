@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishi Umaria's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/594cd733b5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="background">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section class="intro">
+            <h1>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, I m Rishi Umaria.", "I Love to Design.","I Love to Develop." ]'>
+                  <span class="wrap"></span>
+                </a>
+              </h1>
+        </section>
+        <section id="about">
+            <div class="content">                
+                <canvas id="canvas"></canvas>
+                <div class="About">                      
+                    <h1>About Me</h1>
+                    <p>Hello! I'm Rishi Umaria, a passionate and driven Computer Science student at Conestoga College 
+                        with a keen interest in making technology accessible and impactful. 
+                        With experience spanning across web development, game development, and embedded systems, 
+                        I thrive on solving complex problems and creating innovative solutions.
+                    </p>
+                </div>
+                <img src="media/Me.png" alt="It's Me!" class="profile-img">                
+            </div>
+        </section>
+        <!---Skills Section-->
+        <section id="skills">
+            <div class="content">
+                <div class="skillCode">
+                    <div class="skillsL">
+                        <h1>Skills.</h1>
+                        <img src="media/skillsPNG.png" alt="my skills in terms of code" id="code"></div>
+                        <img src="media/skillsResult.png" alt="debug output of my skills code" id="result">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <!-----Contact---->
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class="fa-solid fa-paper-plane"></i>rishiumaria@gmail.com</p>
+					<p><i class="fa-solid fa-phone"></i>+1(437)733-0060</p>
+					<div class="social-icons">
+						<a href="https://facebook.com/"><i class="fa-brands fa-linkedin"></i></a>
+						<a href="https://x.com/rishi_umaria"><i class="fa-brands fa-twitter"></i></a>
+						<a href="https://github.com/R-umaria"><i class="fa-brands fa-github"></i></a>
+						<a href="https://www.reddit.com/user/neoteric24/"><i class="fa-brands fa-reddit"></i></a>
+					</div><br>
+					<a href="media/Resume.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form>
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+						<button type="submit" class="btn btn2">Send</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">Copyright@2024 developed by Rishi Umaria.</div>
+	</div>
+            </div>
+        </section>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
